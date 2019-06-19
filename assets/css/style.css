@@ -1,5 +1,5 @@
 
-/* So there isn't any space when you scroll down */
+/* keeps from spacing when scrolling */
 *{
 
   margin: 0;
@@ -11,12 +11,11 @@ html {
   height: 100%;
 }
 
-/* BG IMAGE */
+/* background */
   body {
     
     /* space on the header */
-    /* below was the public image version but I made a local one too which wasn't working n github*/
-    background-image: url(https://raw.githubusercontent.com/AviMKabir/Basic-Portfolio/master/assets/images/background.png);
+    background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-Background-Images-10.png);
 
 
     height: 100%;
@@ -51,8 +50,6 @@ html {
 
 
 .navbar {
-
-   /* inside of the header making sure the z-index is high so it covers everything  */
   margin: 0 auto;
   z-index: 100;
   width: 960px;
@@ -61,8 +58,6 @@ html {
 
 .logo { 
   
-
-  /* I stuck this inside the navbar div so I can float it left */
 
   float: left;
   color: white;
@@ -74,7 +69,7 @@ html {
   
 }
 
-/* stuff for the nav list */
+/*  nav list */
 
 nav {
 
@@ -130,8 +125,7 @@ nav li {
     
     
   }
-    
-  /* clearing the content so the header shows up */
+  
   header::after{
   
     content: '';
@@ -169,9 +163,6 @@ nav li {
 
   
 
-
-
-  /* floating these so they go next to each other and don't take up a line of space */
   #main-bio,
   #bio-image
        {
@@ -196,7 +187,7 @@ nav li {
   }
 
 
-  /* the portfolio page */
+  /* portfolio */
   
   #portfolio-image
   {
@@ -206,9 +197,6 @@ nav li {
     width: 200px;
 }
 
-
-  /* pairing the portfolio pictures so they are inline  */
-  /* I am trying to make a carbon copy of the homework images I know how to make a table too I swear */
   .portfolio-1,
   .portfolio-2 {
 
@@ -291,14 +279,14 @@ nav li {
   }
 
 
-  /* this is the contact page */
+  /* contact */
 
   input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 3px; /* Add a top margin */
+    width: 100%; 
+    box-sizing: border-box;
+    margin-top: 3px; /* top margin */
     margin-bottom: 5px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical /* lets the user to resize the text */
     
   }
 
@@ -317,7 +305,7 @@ nav li {
   }
 
 
-  /* this is the footer */
+  /* footer */
 
 
  #footer {
